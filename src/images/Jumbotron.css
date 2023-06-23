@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+.jumbou{
+    border-radius: 50px;
+    padding: 20px;
+    height: 300px;
+    transform: translateY(-100);
+    width: 90%;
+    margin: 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 1024px) { .jumbou .easier{font-size: 54px; margin-top:150px} .jumbo {padding: 0 300px;} .jumbou {height: 350px} .call2act .tt {font-size: 28px;} .call2act .uu{font-size: 16px;} .call2act .actButton{margin-top: 20px; height: 80%; width: 350px;} .call2act .ass{font-size: 20px;}}
+
+.easier{
+    color: #fff;
+    font-size: 42px;
+    font-family: 'Poppins', cursive;
+    font-weight: 600;
+    padding-left: 20px;
+    margin-top: 100px;
+}
+
+
+.call2act{
+    color: rgb(25, 9, 64);
+    font-size: 12px;
+    font-family: 'Poppins', cursive;   
+    font-weight: 400;
+    height: 90%;
+    border-radius: 20px;
+    width: 50%;
+    margin: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tt{
+    font-size: 20px;
+    font-family: 'Poppins', cursive;
+    font-weight: 600;
+    padding-top: 25px;
+    color: rgb(25, 9, 64);
+}
+
+.uu{
+    font-size: 13px;
+    font-family: 'Poppins', cursive;
+    font-weight: 400;
+    padding: 20px 45px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.actButton{
+    background-color: rgb(255, 48, 134);
+    color: #fff;
+    width: 200px;
+    height: 70%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.ass{
+    font-size: 14px;
+    font-family: 'Poppins', cursive;
+    font-weight: 600;
+}

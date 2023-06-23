@@ -1,0 +1,21 @@
+.onsale {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items:left;
+    margin: 20px 300px;
+    padding: 0 50px;
+    overflow-x:hidden;
+
+}
+
+.title {
+    font-family: 'Poppins', cursive;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.onsaleslider {
+    display: flex;
+    justify-content: space-evenly;
+}
